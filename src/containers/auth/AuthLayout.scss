@@ -1,0 +1,77 @@
+.logo-wrap {
+  padding-bottom: 50px;
+  img {
+    display: inline-block;
+    height: auto;
+    width: 100px;
+    margin: 0 auto;
+  }
+}
+
+::placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  height: 17px;
+  width: 98px;
+  color: #e0e0e1;
+  font-family: Ubuntu;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.login-form {
+  .forgot-password {
+    color: #34a7de;
+    font-family: Ubuntu;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .btn-login {
+    height: 47px;
+    width: 232px;
+    border-radius: 100px;
+    background-color: #34a7de;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 32px;
+    margin-bottom: 18px;
+    box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.15);
+    span {
+      color: #ffffff;
+      font-family: Ubuntu;
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+  .form-title {
+    color: #24253d;
+    font-family: Ubuntu;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 18px;
+  }
+  .login-form {
+    input {
+      height: 47px;
+      border: 1px solid #dbdee0;
+      border-radius: 6px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.04);
+    }
+  }
+  .login-form {
+    .form-control:focus {
+      border: 1px solid #34a7de;
+      box-shadow: 0 4px 8px 0 rgba(52, 167, 222, 0.16);
+    }
+  }
+  .form-group {
+    .in-valid {
+      display: none;
+      height: 15px;
+      color: #ee7778;
+      font-family: Ubuntu;
+      font-size: 13px;
+      line-height: 15px; //text-align: left;
+    }
+  }
+}
